@@ -8,7 +8,7 @@ const mongoose = require('mongoose')
 
 
 
-const url = `mongodb://${env.DB_USER}:${env.DB_PWD}@${env.DB_HOST}:${env.DB_PORT}/${env.DB_DBNAME}`;
+const url = //your db url here
 
 const connectionParams={
     useNewUrlParser: true,
